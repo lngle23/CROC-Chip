@@ -1,0 +1,1 @@
+/ictc/student_data/huuluong_2307/fn_prj_here/SAVE/opt_CTS_0167.invs.dat/mmmc/modes/func_mode_ideal_bc/func_mode_ideal_bc.sdc

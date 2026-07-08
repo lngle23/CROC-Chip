@@ -1,0 +1,227 @@
+##
+## LEF for PtnCells ;
+## created by Innovus v20.10-p004_1 on Tue Jun 30 15:10:59 2026
+##
+
+VERSION 5.8 ;
+
+BUSBITCHARS "[]" ;
+DIVIDERCHAR "/" ;
+
+MACRO croc_chip
+  CLASS BLOCK ;
+  SIZE 1840.320000 BY 1803.900000 ;
+  FOREIGN croc_chip 0.000000 0.000000 ;
+  ORIGIN 0 0 ;
+  SYMMETRY X Y R90 ;
+  PIN clk_i
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+  END clk_i
+  PIN rst_ni
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+  END rst_ni
+  PIN ref_clk_i
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+  END ref_clk_i
+  PIN jtag_tck_i
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+  END jtag_tck_i
+  PIN jtag_trst_ni
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+  END jtag_trst_ni
+  PIN jtag_tms_i
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+  END jtag_tms_i
+  PIN jtag_tdi_i
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+  END jtag_tdi_i
+  PIN jtag_tdo_o
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+  END jtag_tdo_o
+  PIN uart_rx_i
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+  END uart_rx_i
+  PIN uart_tx_o
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+  END uart_tx_o
+  PIN fetch_en_i
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+  END fetch_en_i
+  PIN status_o
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+  END status_o
+  PIN gpio0_io
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+  END gpio0_io
+  PIN gpio1_io
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+  END gpio1_io
+  PIN gpio2_io
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+  END gpio2_io
+  PIN gpio3_io
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+  END gpio3_io
+  PIN gpio4_io
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+  END gpio4_io
+  PIN gpio5_io
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+  END gpio5_io
+  PIN gpio6_io
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+  END gpio6_io
+  PIN gpio7_io
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+  END gpio7_io
+  PIN gpio8_io
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+  END gpio8_io
+  PIN gpio9_io
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+  END gpio9_io
+  PIN gpio10_io
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+  END gpio10_io
+  PIN gpio11_io
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+  END gpio11_io
+  PIN gpio12_io
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+  END gpio12_io
+  PIN gpio13_io
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+  END gpio13_io
+  PIN gpio14_io
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+  END gpio14_io
+  PIN gpio15_io
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+  END gpio15_io
+  PIN gpio16_io
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+  END gpio16_io
+  PIN gpio17_io
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+  END gpio17_io
+  PIN gpio18_io
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+  END gpio18_io
+  PIN gpio19_io
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+  END gpio19_io
+  PIN gpio20_io
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+  END gpio20_io
+  PIN gpio21_io
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+  END gpio21_io
+  PIN gpio22_io
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+  END gpio22_io
+  PIN gpio23_io
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+  END gpio23_io
+  PIN gpio24_io
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+  END gpio24_io
+  PIN gpio25_io
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+  END gpio25_io
+  PIN gpio26_io
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+  END gpio26_io
+  PIN gpio27_io
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+  END gpio27_io
+  PIN gpio28_io
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+  END gpio28_io
+  PIN gpio29_io
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+  END gpio29_io
+  PIN gpio30_io
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+  END gpio30_io
+  PIN gpio31_io
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+  END gpio31_io
+  PIN unused0_o
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+  END unused0_o
+  PIN unused1_o
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+  END unused1_o
+  PIN unused2_o
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+  END unused2_o
+  PIN unused3_o
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+  END unused3_o
+  OBS
+    LAYER Metal1 ;
+      RECT 0.000000 0.000000 1840.320000 1803.900000 ;
+    LAYER Metal2 ;
+      RECT 0.000000 0.000000 1840.320000 1803.900000 ;
+    LAYER Metal3 ;
+      RECT 0.000000 0.000000 1840.320000 1803.900000 ;
+    LAYER Metal4 ;
+      RECT 0.000000 0.000000 1840.320000 1803.900000 ;
+    LAYER Metal5 ;
+      RECT 0.000000 0.000000 1840.320000 1803.900000 ;
+    LAYER TopMetal1 ;
+      RECT 0.000000 0.000000 1840.320000 1803.900000 ;
+    LAYER TopMetal2 ;
+      RECT 0.000000 0.000000 1840.320000 1803.900000 ;
+  END
+END croc_chip
+
+END LIBRARY

@@ -1,0 +1,1 @@
+/ictc/student_data/huuluong_2307/fn_prj_here/SAVE/opt_CTS_0167.invs.dat/mmmc/views/func_view_bc/latency.sdc
