@@ -1,6 +1,6 @@
 # CROC Chip ASIC Physical Implementation
 
-This project presents the complete ASIC physical implementation flow of the **CROC processor** using **Cadence Innovus**. The implementation covers the entire back-end flow from synthesized netlist to post-route optimization, including timing closure and physical verification.
+This project presents the complete ASIC physical implementation flow of the **CROC processor** using **Cadence Innovus**. The implementation covers the complete ASIC back-end flow from the synthesized netlist to post-route optimization, including timing closure and physical verification.
 
 ## Features
 
@@ -12,11 +12,11 @@ This project presents the complete ASIC physical implementation flow of the **CR
 - Clock Tree Synthesis (CTS)
 - Routing and post-route optimization
 - Timing analysis and timing closure
-- Physical verification (DRC, connectivity, power grid)
+- Physical verification (DRC, connectivity, and power grid)
 
 ## Design Flow
 
-```
+```text
 Netlist
    │
    ▼
@@ -32,7 +32,7 @@ Power Planning
 Placement
    │
    ▼
-Clock Tree Synthesis
+Clock Tree Synthesis (CTS)
    │
    ▼
 CTS Optimization
@@ -42,35 +42,38 @@ Routing
    │
    ▼
 Post-route Optimization
-
+   │
+   ▼
+Timing & Physical Verification
+```
 
 ## Project Structure
 
-```
+```text
 .
 ├── init/                  # Initialization scripts
-├── scripts/               # Physical design Tcl scripts
+├── scripts/               # Tcl scripts
 ├── input_data/
 │   ├── lef/
 │   ├── lib/
 │   ├── netlist/
 │   └── sdc/
 ├── reports/               # Timing and verification reports
-├── img/                # Layout screenshots
+├── img/                   # Layout screenshots
 └── README.md
 ```
 
 ## Implementation Results
 
 | Metric | Result |
-|--------|--------|
+| :------ | :----- |
 | Target Frequency | 100 MHz |
 | Standard-cell Utilization | 58.09% |
 | Final reg2reg WNS | -0.025 ns |
 | Final mem2reg WNS | 0.172 ns |
 | Final reg2mem WNS | 0.600 ns |
 | Final DRC Violations | 0 |
-| Short Violations | 0 |
+| Final Short Violations | 0 |
 
 ## Tools
 
@@ -82,4 +85,3 @@ Post-route Optimization
 ## Author
 
 **Le Huu Luong**
-
